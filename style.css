@@ -2,21 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto" sans-serif;
-  outline: none;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   background-color: #8a51fc;
 }
+
 .logo {
   width: 300px;
   display: block;
   margin: 20px auto;
 }
+
 main {
   width: 375px;
-  background-color: #f4f4f4;
+  background: #f4f4f4;
   border-radius: 20px;
   margin: 0 auto 40px;
   padding: 44px 24px 23px;
@@ -24,24 +25,36 @@ main {
 
 label {
   color: #777777;
-  font-weight: 400;
+  font-weight: 700px;
   font-size: 14px;
 }
 
-select,
-input {
+select {
   background: #ffffff;
   border: 1px solid #bbbbbb;
   border-radius: 4px;
   height: 48px;
   width: 100%;
   margin-bottom: 24px;
-  appearance: none;
   padding-left: 18px;
   font-weight: 700;
   font-size: 16px;
   color: #555555;
+  appearance: none;
   cursor: pointer;
+}
+
+input {
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 24px;
+  padding-left: 18px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #555555;
+  appearance: none;
 }
 
 button {
@@ -59,7 +72,6 @@ button {
 button:hover {
   opacity: 0.8;
 }
-
 button:active {
   opacity: 0.6;
 }
@@ -69,6 +81,7 @@ section {
   border-radius: 20px;
   margin-top: 36px;
   padding: 12px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,10 +101,10 @@ section {
 .currency {
   color: #777777;
   font-size: 14px;
-  
 }
-
-.currency-value, .currency-value-to-convert {
+.currency-value,
+.currency-value-to-convert {
   color: #555555;
   font-weight: 700;
+  font-size: 20px;
 }
